@@ -2,9 +2,7 @@ import requests
 import wmi
 import time
 
-url = 'http://192.168.1.34/temperature/'
-myobj = {'somekey': 'somevalue'}
-
+url = 'http://<ESP8266_IP_ADDRESS>/temperature/'
 
 w = wmi.WMI(namespace="root\OpenHardwareMonitor")
 while(True):
