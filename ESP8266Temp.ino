@@ -16,8 +16,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 
 #ifndef STASSID
-#define STASSID "MALUO8"
-#define STAPSK  "feli2017"
+#define STASSID "<YOUR SSID>"
+#define STAPSK  "YOUR PASSWORD"
 #endif
 
 const char* ssid     = STASSID;
